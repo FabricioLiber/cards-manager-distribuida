@@ -1,0 +1,26 @@
+
+<div class="row justify-content-center p-5">
+    <h3>Cadastro de Cartão</h3>
+</div>
+<div class="row justify-content-center">
+    <form class="col-md-3 row justify-content-center" [formGroup]="formPagamento" (ngSubmit)="onSubmit()">
+        <mat-form-field appearance="outline" class="col-md-12">
+            <mat-label>Número do Cartão</mat-label>
+            <input formControlName="numero" matInput>
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="col-md-12">
+            <mat-label>Nome do Portador</mat-label>
+            <input formControlName="nomePortador" matInput>
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="col-md-12">
+            <mat-label>Validade</mat-label>
+            <input formControlName="validade" matInput>
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="col-md-12">
+            <mat-label>Código de Segurança</mat-label>
+            <input formControlName="codSeguranca" matInput>
+        </mat-form-field>
+        <button mat-flat-button type="submit" color="primary">Cadastrar</button>
+    </form>
+
+</div>
