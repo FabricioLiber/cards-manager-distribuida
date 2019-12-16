@@ -14,7 +14,8 @@ import { MatToolbarModule,
   MatOptionModule,
   MatSelectModule,
   MatDialogModule,
-  MatSnackBarModule
+  MatSnackBarModule,
+  MatSlideToggleModule,
 } from '@angular/material';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -40,6 +41,7 @@ import { PagamentoComponent } from './pagamento/pagamento.component';
     MatSelectModule,
     MatDialogModule,
     MatSnackBarModule,
+    MatSlideToggleModule,
     FormsModule,
     ReactiveFormsModule,
   ],

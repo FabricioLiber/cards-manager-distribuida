@@ -24,6 +24,7 @@ export class PagamentoComponent implements OnInit {
       nomePortador: ['', Validators.required],
       validade: ['', Validators.required],
       codSeguranca: ['', Validators.required],
+      entregaLoja: [false, Validators.required],
     })
   }
 

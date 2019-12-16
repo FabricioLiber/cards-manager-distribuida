@@ -3,4 +3,5 @@ export class Pagamento {
     nomePortador: string;
     validade: String;
     codSeguranca: String;
+    entregaLoja: boolean;
 }
